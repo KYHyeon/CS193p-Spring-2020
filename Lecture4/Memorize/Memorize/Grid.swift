@@ -22,7 +22,7 @@ struct Grid<Item, ItemView>: View where Item: Identifiable, ItemView: View{
         GeometryReader { geometry in
             self.body(for: GridLayout(itemCount: self.items.count, in: geometry.size))
         }
-
+        
     }
     
     func body(for layout: GridLayout) -> some View {
@@ -32,21 +32,29 @@ struct Grid<Item, ItemView>: View where Item: Identifiable, ItemView: View{
     }
     
     func body(for item: Item, in layout: GridLayout) -> some View {
-        let index = items.firstIndex(matching: item)
+        let index = items.firstIndex(matching: item)!
+        // Group은 geometry builder와 같은 ViewBuilder
+        //        return Group {
+        //            if index != nil {
+        //                viewForItem(item)
+        //                .frame(width: layout.itemSize.width, height: layout.itemSize.height)
+        //                .position(layout.location(ofItemAt: index!))
+        //            }
+        //        }
         return viewForItem(item)
             .frame(width: layout.itemSize.width, height: layout.itemSize.height)
             .position(layout.location(ofItemAt: index))
     }
     
-
+    
     
 }
 
 /*
-struct Grid_Previews: PreviewProvider {
-    static var previews: some View {
-        // 테스트 데이터를 넣어서 canvas에서 미리보기를 볼 수 있음
-        Grid()
-    }
-}
-*/
+ struct Grid_Previews: PreviewProvider {
+ static var previews: some View {
+ // 테스트 데이터를 넣어서 canvas에서 미리보기를 볼 수 있음
+ Grid()
+ }
+ }
+ */

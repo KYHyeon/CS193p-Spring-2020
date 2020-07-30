@@ -49,6 +49,7 @@ struct CardView: View {
     
     // 클로저에 안들어가있기 때문에 self.을 쓰지 않아도 된다
     func body(for size: CGSize) -> some View {
+        // ViewBuilder에 아무것도 넣지 않으면 EmptyView가 들어간다.
         ZStack {
             if card.isFaceUp {
                 RoundedRectangle(cornerRadius: cornerRadius).fill(Color.white)
@@ -62,7 +63,9 @@ struct CardView: View {
                 //                .foregroundColor(Color.orange)
                 Text(self.card.content)
             } else {
-                RoundedRectangle(cornerRadius: cornerRadius).fill()
+                if !card.isMatched {
+                    RoundedRectangle(cornerRadius: cornerRadius).fill()
+                }
             }
         }
         .font(Font.system(size: fontSize(for: size)))
