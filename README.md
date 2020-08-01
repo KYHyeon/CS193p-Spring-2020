@@ -8,3 +8,4 @@ Code and personal note. [Stanford CS193p - Developing Apps for iOS](https://cs19
 |3|Reactive UI Protocols Layout|[link](https://www.youtube.com/watch?v=SIYdYpPXil4&list=PLpGHT1n4-mAtTj9oywMWoBx0dCGd51_yG&index=3)|[code](https://github.com/KYHyeon/CS193p-Spring-2020/tree/master/Lecture3)|
 |4|Grid enum Optionals|[link](https://www.youtube.com/watch?v=eHEeWzFP6O4&list=PLpGHT1n4-mAtTj9oywMWoBx0dCGd51_yG&index=4)|[code](https://github.com/KYHyeon/CS193p-Spring-2020/tree/master/Lecture4)|
 |5|ViewBuilder + Shape + ViewModifier|[link](https://www.youtube.com/watch?v=oDKDGCRdSHc)|[code](https://github.com/KYHyeon/CS193p-Spring-2020/tree/master/Lecture5/Memorize)|
+|6|Animation|[link](https://www.youtube.com/watch?v=3krC2c56ceQ)|[code](https://github.com/KYHyeon/CS193p-Spring-2020/tree/master/Lecture6/Memorize)|
