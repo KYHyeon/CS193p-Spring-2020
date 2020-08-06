@@ -35,4 +35,8 @@ class EmojiMemoryGame: ObservableObject {
 //        objectWillChange.send()  // 변경사항을 publish 하기 위해서 사용하지만 @Published를 모델앞에 붙여서 항상 써야 하는 귀찮음을 막을 수 있다.
         model.choose(card: card)
     }
+    
+    func resetGame() {
+        model = EmojiMemoryGame.createMemoryGame()
+    }
 }
