@@ -12,3 +12,4 @@ Code and personal note. [Stanford CS193p - Developing Apps for iOS](https://cs19
 |  6   |                             Animation |     [link](https://www.youtube.com/watch?v=3krC2c56ceQ)      | [code](https://github.com/KYHyeon/CS193p-Spring-2020/tree/master/Lecture6/Memorize) |
 |  -   |                        ☁️ **EmojiArt** |                              -                               |                              -                               |
 |  7   |               Multithreading EmojiArt |     [link](https://www.youtube.com/watch?v=tmx-OwkBWxA)      | [code](https://github.com/KYHyeon/CS193p-Spring-2020/tree/master/Lecture7/EmojiArt) |
+|  8   |                         Gestures JSON |     [link](https://www.youtube.com/watch?v=mz-rNLWJ0bk)      | [code](https://github.com/KYHyeon/CS193p-Spring-2020/tree/master/Lecture8/EmojiArt) |
