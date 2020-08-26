@@ -14,4 +14,5 @@ Code and personal note. [Stanford CS193p - Developing Apps for iOS](https://cs19
 |  7   |               Multithreading EmojiArt |     [link](https://www.youtube.com/watch?v=tmx-OwkBWxA)      | [code](https://github.com/KYHyeon/CS193p-Spring-2020/tree/master/Lecture7/EmojiArt) |
 |  8   |                         Gestures JSON |     [link](https://www.youtube.com/watch?v=mz-rNLWJ0bk)      | [code](https://github.com/KYHyeon/CS193p-Spring-2020/tree/master/Lecture8/EmojiArt) |
 |  9   |                             Data Flow |             [link](https://youtu.be/0i152oA3T3s)             | [code](https://github.com/KYHyeon/CS193p-Spring-2020/tree/master/Lecture9/EmojiArt) |
+|  10  |     Modal Presentation and Navigation |             [link](https://youtu.be/CKexGQuIO7E)             | [code](https://github.com/KYHyeon/CS193p-Spring-2020/tree/master/Lecture10/EmojiArt) |
 
